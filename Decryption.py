@@ -43,5 +43,7 @@ for encrypted in encrypted_message:
         decrypted_message += "u"
     else:
         decrypted_message += encrypted
-        
+
 #Print the Outcome
+print(f"\nEncrypted Message: " + encrypted_message)
+print("Decrypted Message: " + decrypted_message)
