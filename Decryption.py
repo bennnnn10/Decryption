@@ -20,9 +20,28 @@ characters_counter = len(encrypted_message)
 print(f"\nThe count of the characters you have entered is", characters_counter)
 
 #Its time to turn the encrypted message to decrypted message
+for encrypted in encrypted_message:
+
 #If this symbol "*" is/are in the message, change it to letter a
+    if "*" in encrypted:
+        decrypted_message += "a"
+
 #If this symbol "&" is/are in the message, change it to letter e
+    elif "&" in encrypted:
+        decrypted_message += "e"
+
 #If this symbol "#" is/are in the message, change it to letter i
+    elif "#" in encrypted:
+        decrypted_message += "i"
+
 #If this symbol "+" is/are in the message, change it to letter o
+    elif "+" in encrypted:
+        decrypted_message += "o"
+
 #If this symbol "!" is/are in the message, change it to letter u
+    elif "!" in encrypted:
+        decrypted_message += "u"
+    else:
+        decrypted_message += encrypted
+        
 #Print the Outcome
