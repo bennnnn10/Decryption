@@ -12,6 +12,9 @@ print("")
 print("Let us start our mission for today!".center(81))
 
 #Ask the user to input the encrypted message
+encrypted_message = input(f"\nType or input your encrypted message: ")
+decrypted_message = ""
+
 #Count the characters you entered
 #Its time to turn the encrypted message to decrypted message
 #If this symbol "*" is/are in the message, change it to letter a
