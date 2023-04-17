@@ -3,6 +3,14 @@
 #Object-Oriented Programming
 
 #Ask what is the name of the user and greetings
+print("")
+print("My name is Codeperman")
+your_name = input("What is your name? ")
+print("Nice to meet you!" + your_name + ", be ready!")
+
+print("")
+print("Let us start our mission for today!".center(81))
+
 #Ask the user to input the encrypted message
 #Count the characters you entered
 #Its time to turn the encrypted message to decrypted message
